@@ -1,0 +1,38 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+h1 {
+    margin: 40 0 40 0;
+    padding-top: 40px;
+    color: black;
+}
+
+body {
+    background-color: aliceblue;
+}
+
+.box, form {
+    gap: 20;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+input {
+    width: 200px;
+    height: 30px;
+    border-radius: 35px;
+    padding: 0 20px 0 20px;
+}
+
+.buttons {
+    display: flex;
+    flex-direction: row;
+    justify-content:space-around;
+    align-items: center;
+    width: 200px;
+    height: 60px;
+}
